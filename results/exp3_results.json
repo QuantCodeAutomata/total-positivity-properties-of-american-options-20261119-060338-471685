@@ -1,0 +1,33 @@
+{
+  "trinomial_log_concavity_check": {
+    "pmf": {
+      "-1": 0.11666666666666668,
+      "0": 0.6666666666666666,
+      "1": 0.21666666666666667
+    },
+    "p_minus1_times_p_plus1": 0.02527777777777778,
+    "p0_squared": 0.4444444444444444,
+    "log_concave": true
+  },
+  "binomial_pmf": {
+    "p": {
+      "1": 0.31368734174706575,
+      "-1": 0.6863126582529342,
+      "0": 0.0
+    },
+    "b": 1.0,
+    "log_concave": false
+  },
+  "binomial_violation_example": {
+    "K1": 0.4,
+    "K2": 1.0873127313836182,
+    "H2_K1": 0.10206601757820777,
+    "H2_K2": 0.4621590282065644,
+    "H3_K1": 0.10909780536348712,
+    "H3_K2": 0.5255177259925824,
+    "determinant_H2K1_H3K2_minus_H2K2_H3K1": 0.0032169657525605716,
+    "expected_from_paper": 0.0032,
+    "violation_confirmed": true
+  },
+  "two_grid_decomposition_note": "Z_i = 2 X_i - 1 with X_i Bernoulli(p) is always log-concave (two-point pmf), so the subgrids K_0^(-) = {K_0 e^{(2j-1) b}} and K_0^(+) = {K_0 e^{2 j b}} each recover RR2 within themselves (Section 5)."
+}

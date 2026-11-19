@@ -1,0 +1,22 @@
+{
+  "parameters": {
+    "r": 0.1,
+    "dt": 1.0,
+    "sigma": 0.3,
+    "S0": 1.0,
+    "grid_points": 801,
+    "grid_log_half_width": 6.0,
+    "max_n": 2
+  },
+  "proposition_3_1_rr2_determinant": {
+    "max_determinant": 0.0,
+    "n_checked": 1497,
+    "holds": true
+  },
+  "figure_3_1_monotonicity": {
+    "intrinsic_over_p1_nondecreasing": true,
+    "intrinsic_over_h1_nondecreasing": false,
+    "h1_over_h2_nondecreasing": true,
+    "p1_over_p2_nondecreasing": true
+  }
+}

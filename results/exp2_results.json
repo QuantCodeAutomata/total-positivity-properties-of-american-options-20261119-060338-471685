@@ -1,0 +1,37 @@
+{
+  "parameters": {
+    "S0": 1.0,
+    "sigma": 0.3,
+    "T": 1.0,
+    "r_positive_drift": 0.1,
+    "q_positive_drift": 0.0,
+    "r_nonpositive_drift": 0.0,
+    "q_nonpositive_drift": 0.1
+  },
+  "proposition_4_1_nonpositive_drift_puts": {
+    "mu": 0.9048374180359595,
+    "max_rr2_determinant": 0.0,
+    "rr2_holds": true
+  },
+  "proposition_4_1_positive_drift_puts_control": {
+    "mu": 1.1051709180756477,
+    "max_rr2_determinant": 0.0755806728130829,
+    "rr2_holds": false
+  },
+  "proposition_4_2_positive_drift_violation": {
+    "kp_star": 1.4411367033229765,
+    "kp_star_paper": 1.24,
+    "log_ratio_increasing_beyond_kp_star": true,
+    "violation_found_beyond_kp_star": true
+  },
+  "black_scholes_drift_condition_eq_32": {
+    "drift_ratio_E_ST_over_S0": 1.1051709180756477,
+    "hazard_rate_ratio_decreasing_in_K": true,
+    "hazard_rate_ratio_min": 1.000000416439348,
+    "hazard_rate_ratio_max": 3.9240411304598912
+  },
+  "call_side_tp2_violation_negative_drift": {
+    "kc_star": 0.6938966981371776,
+    "violation_found": true
+  }
+}

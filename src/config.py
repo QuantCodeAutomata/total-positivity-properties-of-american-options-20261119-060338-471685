@@ -59,7 +59,7 @@ EXP4_SIGMA = 0.30        # Black-Scholes volatility, reused from Section 3.6
 EXP4_S0 = 1.0            # normalized spot price
 EXP4_N_MIN = 1           # smallest refinement level N (grid Delta^N = T / 2^N), Section 6
 EXP4_N_MAX_PAPER = 15    # largest refinement level N quoted as an illustration range, Section 6
-EXP4_N_MAX_RUN = 12      # largest refinement level actually executed (2^12 = 4096 exercise steps); chosen so the convergence run finishes within the time available while still covering more than three orders of magnitude of refinement. Use --full to request EXP4_N_MAX_PAPER.
+EXP4_N_MAX_RUN = 9       # largest refinement level actually executed (2^9 = 512 exercise steps); the CFL-consistent spatial grid grows with N (see src/convergence.py), so the dense continuation-operator cost grows faster than N; this level keeps the run within the time available while still covering a two-order-of-magnitude refinement range. Use --full to request EXP4_N_MAX_PAPER.
 EXP4_GRID_POINTS = 241   # number of points in the internal pricing grid used for the convergence study (not specified in the paper)
 EXP4_GRID_LOG_HALF_WIDTH = 3.0  # half-width in log-moneyness of the internal pricing grid (not specified in the paper)
 EXP4_STRIKES = (0.8, 1.0, 1.2)  # representative strikes used to report convergence of Bermudan to American values (not specified in the paper)
