@@ -1,0 +1,56 @@
+{
+  "experiment": "exp_5",
+  "description": "TP2 (calls) / RR2 (puts) violation rates, Section 7.1-7.3, Table 7.1",
+  "paper_table_7_1": {
+    "SPY": {
+      "call_rate_pct": 0.804,
+      "put_rate_pct": 1.965,
+      "ba_call_rate_pct": 0.038,
+      "ba_put_rate_pct": 0.348
+    },
+    "AMZN": {
+      "call_rate_pct": 1.855,
+      "put_rate_pct": 2.15
+    },
+    "GOOGL": {
+      "call_rate_pct": 1.614,
+      "put_rate_pct": 2.244
+    },
+    "META": {
+      "call_rate_pct": 0.748,
+      "put_rate_pct": 1.157
+    },
+    "TSLA": {
+      "call_rate_pct": 0.71,
+      "put_rate_pct": 2.289
+    }
+  },
+  "results": {
+    "SPY": {
+      "ticker": "SPY",
+      "status": "data_unavailable",
+      "error": "GET /options/v1/analytics (SPY): HTTP 403: You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing"
+    },
+    "AMZN": {
+      "ticker": "AMZN",
+      "status": "data_unavailable",
+      "error": "GET /options/v1/analytics (AMZN): HTTP 403: You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing"
+    },
+    "GOOGL": {
+      "ticker": "GOOGL",
+      "status": "data_unavailable",
+      "error": "GET /options/v1/analytics (GOOGL): HTTP 403: You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing"
+    },
+    "META": {
+      "ticker": "META",
+      "status": "data_unavailable",
+      "error": "GET /options/v1/analytics (META): HTTP 403: You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing"
+    },
+    "TSLA": {
+      "ticker": "TSLA",
+      "status": "data_unavailable",
+      "error": "GET /options/v1/analytics (TSLA): HTTP 403: You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing"
+    }
+  },
+  "conclusion": "not_reproduced_data_unavailable"
+}

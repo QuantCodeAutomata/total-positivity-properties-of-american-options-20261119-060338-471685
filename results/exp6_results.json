@@ -1,0 +1,18 @@
+{
+  "experiment": "exp_6",
+  "description": "Violation survival rates at T+1..T+14, Section 7.4, Table 7.2",
+  "paper_table_7_2_t1_15": {
+    "call": {
+      "T+1": 58.8,
+      "T+14": 1.35
+    },
+    "put": {
+      "T+1": 71.47,
+      "T+14": 1.44
+    }
+  },
+  "status": "data_unavailable",
+  "error": "GET /options/v1/analytics (SPY): HTTP 403: You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing",
+  "survival_tables": {},
+  "conclusion": "not_reproduced_data_unavailable"
+}

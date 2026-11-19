@@ -1,0 +1,8 @@
+{
+  "experiment": "exp_9",
+  "description": "Annual violation rates for the full, DTE<=30, and ex-dividend safe subsets of SPY options, Section 7.7, Figure 7.2",
+  "status": "data_unavailable",
+  "error": "GET /options/v1/analytics (SPY): HTTP 403: You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing",
+  "subsets": {},
+  "conclusion": "not_reproduced_data_unavailable"
+}

@@ -91,7 +91,7 @@ EXP10_SPX_END = "2025-08-29"     # SPX sample end, Section 7.8
 EXP10_NEWEY_WEST_LAGS = 3        # Newey-West lag order used for the SPY-vs-SPX t-statistics, Table 7.7
 EXP8_NEWEY_WEST_LAGS = 5         # Newey-West lag order used for the regression of violation rates, Section 7.6 / Table 7.5
 
-# Universe/time-budget note: a full download of EOD options analytics (bid,
+# Data-availability note: a full download of EOD options analytics (bid,
 # ask, implied volatility, delta, volume) for five tickers over 5-25 years
 # each would be the OptionMetrics-equivalent dataset the paper uses. This
 # repository attempts that load through the Massive options analytics

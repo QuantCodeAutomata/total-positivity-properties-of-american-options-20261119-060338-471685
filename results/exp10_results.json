@@ -1,0 +1,55 @@
+{
+  "experiment": "exp_10",
+  "description": "American (SPY) vs European (SPX) TP2/RR2 violation-rate comparison, Section 7.8, Tables 7.6-7.7, Figure 7.3",
+  "paper_results": {
+    "table_7_6_dte_median": {
+      "SPY": 49.5,
+      "SPX": 26.0
+    },
+    "table_7_7_full": {
+      "call": {
+        "SPY_pct": 1.09,
+        "SPX_pct": 2.17,
+        "t_stat": -2.9
+      },
+      "put": {
+        "SPY_pct": 2.18,
+        "SPX_pct": 3.25,
+        "t_stat": -5.0
+      }
+    },
+    "table_7_7_dte_le_30": {
+      "call": {
+        "SPY_pct": 2.35,
+        "SPX_pct": 2.3,
+        "significant": false
+      }
+    },
+    "correlation_pearson_spearman": {
+      "call": [
+        0.78,
+        0.86
+      ],
+      "put": [
+        0.87,
+        0.84
+      ]
+    },
+    "delta_gap_vs_drift_correlation": [
+      -0.35,
+      -0.39
+    ]
+  },
+  "spy": {
+    "ticker": "SPY",
+    "status": "data_unavailable",
+    "error": "GET /options/v1/analytics (SPY): HTTP 403: You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing"
+  },
+  "spx": {
+    "ticker": "SPX",
+    "status": "data_unavailable",
+    "error": "GET /options/v1/analytics (SPX): HTTP 403: You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing"
+  },
+  "comparison": null,
+  "conclusion": "not_reproduced_data_unavailable"
+}

@@ -1,0 +1,34 @@
+{
+  "experiment": "exp_8",
+  "description": "Regression of daily log violation rates on log SPY return, VIX, SKEW, and standardized log option volume, Section 7.6, Table 7.5",
+  "paper_table_7_5": {
+    "call": {
+      "const": -5.013,
+      "log_spy_return": -9.43,
+      "vix": -0.013,
+      "skew": 0.001,
+      "log_volume_z": 0.131,
+      "r2": 0.041
+    },
+    "put": {
+      "const": -9.417,
+      "log_spy_return": 4.17,
+      "vix": -0.034,
+      "skew": 0.043,
+      "log_volume_z": 0.017,
+      "r2": 0.397
+    },
+    "gap": {
+      "const": -4.403,
+      "log_spy_return": 13.6,
+      "vix": -0.021,
+      "skew": 0.042,
+      "log_volume_z": -0.114,
+      "r2": 0.217
+    }
+  },
+  "status": "data_unavailable",
+  "error": "GET /options/v1/analytics (SPY): HTTP 403: You are not entitled to this data. Please upgrade your plan at https://massive.com/pricing",
+  "regression": null,
+  "conclusion": "not_reproduced_data_unavailable"
+}
